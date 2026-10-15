@@ -1,0 +1,72 @@
+header {
+  width: 100%;
+  background-color: #1F2B6C;
+  display: flex;
+  justify-content: center;
+
+  nav {
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-menu {
+      display: flex;
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        li {
+          a {
+            color: #FCFEFE;
+            font-size: 18px;
+            font-weight: 400;
+          }
+        }
+
+        li.active a {
+          font-weight: 700;
+          color: #FFFFFF;
+        }
+
+        li:hover a {
+          color: #BFD2F8;
+        }
+      }
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .search-icon {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      .appointment-btn {
+        width: 140px;
+        height: 45px;
+        background-color: #BFD2F8;
+        color: #1F2B6C;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 30px;
+      }
+
+      .appointment-btn:hover {
+        background-color: #dbe7ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .hero-banner {
+    width: 147%;
+    height: 1000px;
+    background-image: url('../assets/Fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero-content {
+      width: 1200px;
+
+      .hero-subtitle {
+        color: #159EEC;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+      }
+
+      .hero-title {
+        font-family: 'Yeseva One', serif;
+        font-size: 48px;
+        color: #1F2B6C;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 25px;
+      }
+
+      .hero-btn {
+        width: 170px;
+        height: 45px;
+        background-color: #BFD2F8;
+        color: #1F2B6C;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 30px;
+      }
+
+      .hero-btn:hover {
+        background-color: #dbe7ff;
+      }
+    }
+  }
+
+  .hero-cards {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    position: relative;
+    top: -50px;
+
+    .hero-card {
+      height: 100px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      img {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    .card-navy {
+      background-color: #1F2B6C;
+      color: #FFFFFF;
+    }
+
+    .card-light {
+      background-color: #BFD2F8;
+      color: #1F2B6C;
+    }
+
+    .card-blue {
+      background-color: #159EEC;
+      color: #FFFFFF;
+    }
+  }
+}
